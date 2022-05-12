@@ -54,8 +54,8 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.patrickthedev'
-                artifactId = 'imageslider'
-                version = '0.9.0'
+                artifactId = 'ImageSlider'
+                version = '1.0.0'
             }
         }
     }
