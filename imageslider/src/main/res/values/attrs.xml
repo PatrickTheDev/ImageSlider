@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ImageSlider">
+        <attr name="placeholder" format="reference"/>
+        <attr name="errorImage" format="reference"/>
+        <attr name="scaleType">
+            <!-- Scale using the image matrix when drawing. -->
+            <enum name="matrix" value="0"/>
+            <enum name="fitXY" value="1"/>
+            <enum name="fitStart" value="2"/>
+            <enum name="fitCenter" value="3"/>
+            <enum name="fitEnd" value="4"/>
+            <enum name="center" value="5"/>
+            <enum name="centerCrop" value="6"/>
+            <enum name="centerInside" value="7"/>
+        </attr>
+
+        <attr name="selectedDot" format="reference" />
+        <attr name="selectedDotColor" format="reference|color" />
+        <attr name="unselectedDot" format="reference" />
+        <attr name="unselectedDotColor" format="reference|color" />
+        <attr name="indicatorGravity">
+            <flag name="top" value="0x30"/>
+            <flag name="bottom" value="0x50"/>
+            <flag name="left" value="0x03"/>
+            <flag name="right" value="0x05"/>
+        </attr>
+
+        <attr name="withTitle" format="boolean"/>
+        <attr name="withBackground" format="boolean"/>
+        <attr name="titleColor" format="reference|color"/>
+        <attr name="titleGravity">
+            <flag name="top" value="0x30"/>
+            <flag name="bottom" value="0x50"/>
+            <flag name="left" value="0x03"/>
+            <flag name="right" value="0x05"/>
+        </attr>
+
+        <attr name="autoCycle" format="boolean"/>
+        <attr name="cyclePeriod" format="integer"/>
+        <attr name="cycleDelay" format="integer"/>
+    </declare-styleable>
+
+</resources>
